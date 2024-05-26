@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu {
+  @apply font-plusjakartasans font-medium text-base text-hero-dark-font leading-[20.16px] hover:text-opacity-50;
+}
+
+.header-image {
+    @apply absolute rounded-full border-2 border-white
+}
+
+.header-button {
+  @apply font-plusjakartasans font-extrabold text-xl  leading-[25.2px] px-[40px] py-[22px] border-t border-r-4 border-b-4 border-l border-hero-dark-font rounded-xl hover:bg-opacity-75;
+}
+
+.main-text-tools {
+  @apply font-plusjakartasans font-extrabold text-middle-font text-[22px] leading-[27.72px];
+}
+
+.second-text-tools {
+  @apply font-plusjakartasans font-medium text-lg text-soft-font leading-[22.68px];
+}
+
+.middle-box-content {
+  @apply w-[239px] h-[280px] bg-white rounded-[50px] border border-middle-font border-t border-r-[6px] border-b-[6px] border-l;
+}
+
+.small-box-content {
+  @apply bg-white flex p-5 gap-[14px] border-t border-r-4 border-b-4 border-l border-middle-font rounded-2xl hover:bg-opacity-75;
+}
+
+.backdrop {
+    @apply absolute w-[367px] h-[304.67px] z-0 rotate-[35.94deg] rounded-full blur-3xl
+}
+
+.main-text-ai-section {
+    @apply font-plusjakartasans font-extrabold text-middle-font text-xl leading-[25.2px]
+}
+
+.desc-text-ai-section {
+    @apply font-plusjakartasans font-medium text-soft-font text-lg leading-[30px]
+}
+
+.main-text-last-section {
+    @apply font-plusjakartasans from-middle-font font-extrabold text-xl leading-[25.2px]
+}
+
+.desc-text-last-section {
+    @apply font-plusjakartasans font-semibold text-lg text-middle-font leading-[22.68px]
+}
